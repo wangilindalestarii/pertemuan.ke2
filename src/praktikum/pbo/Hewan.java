@@ -1,3 +1,4 @@
+package praktikum.pbo;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -7,13 +8,13 @@ public class Hewan {
     Integer jumlahKaki;
     Date tanggalLahir;
 
-    public Hewan(String nama, String jenis, Integer jumlahKaki){
+    public  Hewan(String nama, String jenis, Integer jumlahKaki){
 
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd-MM-yyyy");
         this.nama = nama;
         this.jenis = jenis;
         this.jumlahKaki = jumlahKaki;
 
-        System.out.println(nama+ " " + jenis +" "+jumlahKaki);
+        System.out.println(nama+" "+jenis + " "+jumlahKaki);
     }
 }
